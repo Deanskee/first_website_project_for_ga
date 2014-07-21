@@ -1,0 +1,202 @@
+
+ 	
+ 	.header-background {
+        text-align:center;
+        background:url("http://i.imgur.com/PVgsgAN.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: auto;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+        background-size: cover;
+        background-position:center;
+        padding:0 0 -20px 0;
+        color:white;
+        margin:-4px -35px 0 -10px;
+        max-width: 100%;
+
+        
+      }
+       .navbar a {
+          color:white;
+          padding:10px 20px;
+          display:inline-block;
+          text-decoration: none;
+
+
+        }
+        body,
+		html {
+   	 	 overflow-x: hidden;
+   		 width: 100%;
+}
+	
+
+        h1 {
+            font-size:40px;
+            padding:-20px 0 -20px 0;
+            position: relative;
+            left:15px;
+        }
+
+        h2 {
+        	font-size: 24px;
+        	text-align: center;
+        	font-family: 'Revalia', cursive;
+
+
+        }
+
+        p {
+        	text-align: center;
+        	font-family: 'Almendra', serif;
+        }
+
+        li a {
+        		color:white;
+        		padding:30px;
+        		font-weight:bold;
+        }
+
+        li {
+        	text-align:right;
+        }
+
+        .navbar li, .navbarheader li {
+        	display:inline-block;
+        	border:5px solid white;
+        	border-radius:10px;
+        	margin:-4px;
+        }
+
+        .navbar li:hover, .navbarheader li:hover {
+
+        		background-color: rgba(1,192,192,192);
+        }
+
+        .navbar ul, .navbarheader ul {
+        		background-color:rgba(0,0,0,0.35);
+        }
+        
+        .navbarheader ul, .navbar ul {
+        		width:100%;
+        		display:inline-block;
+        		margin:0 -24px 0 -24px;	
+        }
+
+        .navbarheader li {
+        		margin-right:0 auto;
+        }
+      	#deanpic img {
+      		height:180px;
+          	margin:6px 30px 0px 40px;
+          	border:8px solid black;
+          	border-radius:55px;
+          	
+
+      }
+      
+      #socialdiv {
+      			
+      			padding: 5px;
+      			text-align: center;
+
+      		}
+
+      #center_icons:hover {
+      		max-height:70px;
+      		width:214px;
+      		display:block;
+      		margin-left:auto;
+      		margin-right:auto;
+      		max-width:100%;
+      }	
+
+       .container {
+ 		width:80%;
+ 		margin:0 10%;
+ 		float:left;
+
+ }
+ 		.header-navbar {
+ 				display: inline-block;
+ 		}
+ 		label {
+		    display:block;
+		    margin-top:20px;
+		    letter-spacing:2px;
+		}
+		/* Centre the page */
+.body {
+    display:block;
+    margin:0 auto;
+    width:576px;
+}
+
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+/* Style the text boxes */
+   input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+	input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+	textarea {
+	height:200px;
+	
+}
+     input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+     
+    #submit {
+    width:127px;
+    height:38px;
+    background-color:rgba(1,192,192,192);
+    border:2px;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+	#submit:hover {
+	    opacity:.9;
+	} 
+	/* Style changes when screen size changes*/
+
+      @media (max-width: 500px) {
+  			body {
+  				background:rgb(192,192,192);
+  			}
+
+  			h1 {
+  				font-size:25px;
+  			}
+
+  			.navbar li, .header-navbar li {
+  				display:block;
+  				padding:10px;
+  				text-align: center;
+
+  			}
+
+  		
+}
+      }
+      
+      
+      
